@@ -4,6 +4,7 @@ Step 1 : Run Following Command :
 	cd app_name
 	grails run-app
 Step 2 : Create Domain Class under a package
+	grails create-domain-class com.firstApp.User
 	package com.firstApp
 	class User {
 	    String username;
